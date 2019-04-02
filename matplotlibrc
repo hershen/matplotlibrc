@@ -289,7 +289,7 @@ axes.edgecolor      : black   ## axes edge color
 axes.grid           : False   ## display grid or not
 axes.grid.axis      : both    ## which axis the grid should apply to
 #axes.grid.which     : major   ## gridlines at major, minor or both ticks
-#axes.titlesize      : large   ## fontsize of the axes title
+axes.titlesize      : xx-large   ## fontsize of the axes title
 #axes.titleweight    : normal  ## font weight of title
 #axes.titlepad       : 6.0     ## pad between axes and title in points
 axes.labelsize      : xx-large  ## fontsize of the x any y labels
@@ -480,7 +480,7 @@ image.cmap   : gist_heat_r           ## A colormap name, gray etc...
 #errorbar.capsize : 0             ## length of end cap on error bars in pixels
 
 #### HISTOGRAM PLOTS
-#hist.bins : 10                   ## The default number of histogram bins.
+hist.bins : auto                   ## The default number of histogram bins.
                                   ## If Numpy 1.11 or later is
                                   ## installed, may also be `auto`
 
